@@ -9,7 +9,9 @@ Sajt ce vas uvesti u eru vikinga i osetice te taj miris vikinske bitke.Sajt sluz
 Frontend
 
 React+Vite
+
 CSS
+
 ReactBootstrap
 
 
