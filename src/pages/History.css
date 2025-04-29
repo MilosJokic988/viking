@@ -1,0 +1,81 @@
+body {
+  background-image: url('/images/Vikings3.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+
+.history-container {
+  max-width: 1000px;
+  margin: 4rem auto;
+  padding: 3rem;
+  background: rgba(0, 0, 0, 0.5); 
+  color: #dcd3b2;
+  font-family: 'Cardo', serif;
+  border: 2px solid #3a2d21;
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.05), inset 0 0 15px rgba(0, 0, 0, 0.7);
+  border-radius: 12px;
+  position: relative;
+  z-index: 1;
+  backdrop-filter: brightness(0.5);
+  transition: background 0.6s ease-in-out;
+}
+  
+  .history-title {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    font-family: 'UnifrakturCook', cursive;
+    color: #c9b173;
+    text-shadow: 3px 3px 8px #000;
+    letter-spacing: 2px;
+  }
+  
+  .timeline {
+    position: relative;
+    padding-left: 35px;
+    border-left: 3px solid #8b6e3b;
+  }
+  
+  .timeline-item {
+    margin-bottom: 2.5rem;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 5px;
+    width: 14px;
+    height: 14px;
+    background: #8b6e3b;
+    border-radius: 50%;
+    border: 2px solid #1a1a1a;
+    box-shadow: 0 0 15px #8b6e3b;
+  }
+  
+  .timeline-date {
+    font-size: 1.1rem;
+    color: #aa956a;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+  }
+  
+  .timeline-event {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: #d0c4a2;
+  }
+  
+  .timeline-event::first-letter {
+    color: #e1a948;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
