@@ -9,21 +9,8 @@ Na njemu se moze korisnik registrovati, ulogovati i odigrati zanimljivu igricu d
 
 Sajt se sastoji od:
 
-HOME
-
-HISTORY
-
-GODS
-
-PRODUCTS
-
-CART
-
-VIKING DUEL
-
-REGISTER
-
-LOGIN
+HOME  HISTORY  GODS PRODUCTS CART
+VIKING DUEL REGISTER  LOGIN
 
 
 
